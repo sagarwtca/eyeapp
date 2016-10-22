@@ -1,0 +1,31 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "\"dafafaf\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagar-india/node-backend.git"
+  },
+  "author": "NODE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagar-india/node-backend/issues"
+  },
+  "homepage": "https://github.com/sagar-india/node-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "mongodb": "^2.2.11",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4"
+  }
+}

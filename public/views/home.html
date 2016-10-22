@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body ng-controller='homeCtrl'>
+<p>Input something in the input box:</p>
+		<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+		<h1>Hello {{name}}</h1>
+		<a href="api/user/facebookLogin" value="loginWithFacebook">Facebook</a><br>
+		<a href="api/user/twitterLogin" value="loginWithTwitter">Twitter</a><br>
+		<a href="api/user/googleLogin" value="loginWithGoogle">Facebook</a>
+</body>
+<script>
+myApp.controller('homeCtrl',funcion($scope){})
+</script>
+</html>
